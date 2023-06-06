@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>love</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="kesatuan">
+    <button onclick="tampilkanObjek()" class="tombol">click here, then hover the box</button>
+
+    <div id="objek" class="hidden">
+      <h2 class="heart">
+        <br />
+        <p class="lovu">lo<span>vu</span></p>
+      </h2>
+
+      <p class="katakata">untuk kak ke!!</p>
+    </div>
+
+    <script>
+      function tampilkanObjek() {
+        var objek = document.getElementById("objek");
+        objek.classList.remove("hidden");
+      }
+    </script>
+  </body>
+</div>
+</html>
